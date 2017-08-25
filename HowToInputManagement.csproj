@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{12B11C57-B51C-D1D6-8E11-327EC1376A8E}</ProjectGuid>
+    <ProjectGuid>{A95D15EC-CAFE-7AAA-5CC8-0E062D4DDA51}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -87,6 +87,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Helpers\ActorObject.cs" />
+    <Compile Include="Assets\Helpers\ExtensionMethods.cs" />
+    <Compile Include="Assets\Helpers\SizedGameObject.cs" />
+    <Compile Include="Assets\Helpers\SwitchBoard.cs" />
     <Compile Include="Assets\HoloToolkit\CrossPlatform\Scripts\MetroHandleRef.cs" />
     <Compile Include="Assets\HoloToolkit\CrossPlatform\Scripts\Reflection\ReflectionExtensions.cs" />
     <Compile Include="Assets\HoloToolkit\CrossPlatform\Scripts\Reflection\TypeUtils.cs" />
